@@ -1,0 +1,13 @@
+@import url(general.css);
+@import url(index.css);
+@import url(propiedades.css);
+
+.color{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.text{
+    font-size: 15px; 
+    text-align: center;
+  }

@@ -1,0 +1,120 @@
+@import url(general.css);
+
+body{
+    background-color: #ffffff !important;
+}
+.page-contacto .contenedor-contacto {
+    max-width: 700px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+.page-contacto .titulo-seccion{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page-contacto .contenedor-contacto .col {
+    width: 30%;
+    background-color: #ffffff;
+    border: 1px solid #aaa;
+}
+
+.page-contacto .contenedor-contacto .info {
+    padding: 15px;
+}
+
+.page-contacto .contenedor-contacto .info div {
+    margin-bottom: 20px;
+}
+
+.page-contacto .formulario {
+    padding: 15px;
+}
+
+.page-contacto .formulario h3 {
+    margin-bottom: 10px;
+}
+
+.page-contacto .formulario label {
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+    color: #020e14;
+}
+
+.page-contacto .formulario div {
+    margin-bottom: 15px;
+}
+
+.colorname{
+    color: #010c11;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+
+
+}
+
+.page-contacto .formulario input,
+.page-contacto .formulario textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.a{
+    font-size: 17px !important;
+}
+
+.n{
+    font-weight: bold !important;
+}
+
+.imgcu{
+    width: 200px;
+    height: 200px;
+}
+
+.pagination-container {
+    text-align: right !important;
+}
+
+
+.combox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+
+
+  .qrcode-wrapper {
+    text-align: center;
+  }
+  
+  .qrcode-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+  }
+
+  .carousel-image {
+    width: 600px;
+    height: 400px;
+}

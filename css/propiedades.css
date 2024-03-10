@@ -1,0 +1,98 @@
+@import url(general.css);
+@import url(index.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Prompt:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+body {
+  background-color: #eceff1;
+}
+
+/* BARRA DE B U S Q U E D A*/
+
+.pos-inferior {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pos-centrada {
+  margin: 30px auto;
+
+}
+
+.box-buscar-propiedades {
+  max-width: 500px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  bottom: 100px;
+}
+
+.box-buscar-propiedades .box-interior {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+.box-buscar-propiedades .box-interior p {
+  color: #424242;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.box-buscar-propiedades .box-interior select {
+  width: 180px;
+  background-color: #eee;
+  color: #131313;
+  border: 1px solid #424242;
+  padding: 7px;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+.box-buscar-propiedades .box-interior input[type=submit] {
+  width: 150px;
+  padding: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  background: linear-gradient(to right, #166390, #329fe7);
+  ;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+
+
+.box-buscar-propiedades .box-interior input[type=radio] {
+  font-size: 14px;
+}
+
+.box-buscar-propiedades .box-interior .estado {
+  width: 180px;
+  background-color: #eee;
+  color: #131313;
+  border: 1px solid #424242;
+  padding: 7px;
+  margin: 0 10px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.box-buscar-propiedades .box-interior .estado span {
+  margin: 07px;
+}
+
+.text{
+  font-size: 15px; 
+  text-align: center;
+}

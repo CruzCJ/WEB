@@ -1,0 +1,32 @@
+@import url(general.css);
+/* C O N T A C T O */
+        
+
+body{
+    background-color: #f7f6f6 !important;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #000000;
+}
+
+
+.container-form {
+    max-width: 800px;
+    width: 100%;
+}
+
+
+.titulo {
+	padding-top: 2%;
+	font-size: 3.0em;
+	color:  #154360;
+	text-shadow: 0 0 30px #154360;
+}

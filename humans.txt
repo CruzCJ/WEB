@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Developer: Fernando Chaves
+    Contact: fernandojosechs23@gmail.com
+    twitter: @fer_jose23
+    Location: Atenas, CR
+
+# THANKS
+
+    Profesor:  Rolando Sequeira Víctor
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

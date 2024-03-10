@@ -1,0 +1,124 @@
+@import url("fuentes/stylesheet.css");
+
+:root {
+  /*colores*/
+  --primario: #bf213e;
+  --secundario: #f2e8b6;
+  --enfasis: #f2d377;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --gris: #7E8A8A;
+  --azul: #154360;
+  --celeste:#58b1e8;
+
+  /*fuente*/
+  --fuente: 'timelessregular';
+}
+
+* {
+  line-height: 1.5 !important;
+  /* interlineado*/
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+}
+
+.active,.nav-link:hover {
+  color: var(--blanco) !important;
+  text-decoration: underline !important ;
+  font-weight: bold !important;
+} 
+
+
+.dropsCustom:hover{
+  color: var(--blanco) !important;
+  text-decoration: underline !important ;
+  border: 0px;
+  
+
+  }
+
+  
+
+.btn-negro {
+  background-color: var(--celeste);
+  color: #ffffff;
+
+
+}
+
+.btn-negro:hover {
+  background-color: var(--blanco) !important;
+  color: var(--azul) !important;
+  border: var(--azul)solid 5px !important;
+}
+
+.bg-secundario {
+  background-color: #154360;
+}
+
+body {
+  font-family: var(--fuente) !important;
+  font-size: 14px;
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  
+}
+
+footer {
+  background-color: var(--azul);
+  color: var(--blanco);
+  
+
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  color: var(--blanco);
+  margin-top: 2em;
+}
+
+.card {
+  border: var(--azul)solid 5px !important;
+  margin-top: 1em !important;
+  margin-bottom: 2em !important;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+  padding: 0.75em 2em !important;
+  
+  
+
+}
+
+main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  
+}
+
+p {
+  margin-bottom: 2em !important;
+}
+
+.Recoleccion{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -10%);
+  width: auto;
+  background-color: #f2e8b6;
+  border-radius: 10px;
+
+
+}
+
+
+
+
+

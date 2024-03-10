@@ -1,0 +1,67 @@
+@import url(general.css);
+
+
+/*--------------------------------------------------------*/
+
+body {
+	font-size: 16px !important;
+	background-color: white !important;
+  }
+
+
+#contenido {
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+}
+
+
+
+#principal {
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	background: url(../img/logo.gif) no-repeat right bottom;
+	
+}
+
+
+#principal h2 {
+	padding: 2%;
+	text-align: center;
+	font-size: 2em;
+	color: #154360;
+	border-top: 2px solid #154360;
+	
+}
+
+
+#titulo {
+	padding-top: 2%;
+	text-align: center;
+	font-size: 3.5em;
+	color:  #154360;
+	text-shadow: 0 0 30px #154360;
+}
+
+#contenedorMapa {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas pequeñas */
+    #titulo {
+        font-size: 1.5em;
+    }
+    #contenido {
+        width: 90%;
+    }
+}
+
+
+
+.container-form {
+    max-width: 800px;
+    width: 100%;
+}

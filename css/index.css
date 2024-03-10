@@ -1,0 +1,40 @@
+@import url(general.css);
+
+/* CARTA PROPIEDADES */
+.btn-negro {
+    background-color: var(--azul) !important;
+    color: var(--blanco) !important;
+  }
+  
+  .btn-negro:hover {
+    background-color: var(--blanco) !important;
+    color: var(--azul) !important;
+    border: var(--azul) solid 2px !important;
+  }
+  
+  .card {
+    border: var(--azul) solid 4px !important;
+    padding: 2em !important;
+    margin: 2em !important;
+    height: 500px !important;
+  
+  }
+  
+  .card-img-custom {
+    width: 365px !important;
+    height: 274px !important;
+    max-width: 365px !important;
+    max-height: 274px !important;
+    min-width: 365px !important;
+    min-height: 274px !important;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+  .aun{
+    align-items: center;
+  }
+  
